@@ -5,6 +5,8 @@ class Wall:
     # write your code here
 
     # don't touch below this line
+    def get_cost(self):
+        return self.armor * self.height
 
     def fortify(self):
-        self.armor *= 2
+        self.armor *= 2 

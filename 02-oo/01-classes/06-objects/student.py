@@ -1,6 +1,13 @@
 def main():
     # write your code here
+    b1 = Brawler(4, 4, "Aragorn")
+    b2 = Brawler(2, 7, "Gimli")
 
+    b3 = Brawler(7, 7, "Legolas")
+    b4 = Brawler(3, 2, "Frodo")
+
+    fight(b1, b2)
+    fight(b3, b4)
 
 # don't touch below this line
 
