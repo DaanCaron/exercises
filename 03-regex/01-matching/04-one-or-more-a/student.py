@@ -1,1 +1,4 @@
-# Write your code here
+import re
+
+def one_or_more(string):
+    return re.fullmatch('a+', string)
