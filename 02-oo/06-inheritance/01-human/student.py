@@ -8,8 +8,8 @@ class Human:
 
 class Archer(Human):
     def __init__(self, name, num_arrows):
-        super().__init__(name)
         self.__num_arrows = num_arrows
+        super().__init__(name)
 
     def get_num_arrows(self):
         return self.__num_arrows
