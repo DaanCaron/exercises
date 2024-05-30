@@ -12,4 +12,4 @@ class CircularBuffer:
         return self.__items[index]
     
     def __len__(self):
-        return len(self.__items)
+        return len(self.__items) 
