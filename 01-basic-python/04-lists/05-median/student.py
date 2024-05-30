@@ -1,9 +1,8 @@
-# Write your code here
 def median(ns):
-    sortedList = sorted(ns) 
-    i = len(sortedList) // 2
-    
-    if i % 2 == 0:
-        return (sortedList[i - 1] + sortedList[i]) / 2
+    sorted_list = sorted(ns)
+    mid_index = len(sorted_list) // 2
+
+    if len(sorted_list) % 2 == 0:
+        return (sorted_list[mid_index -1] + sorted_list[mid_index]) / 2
     else:
-        return sortedList[i]
+        return sorted_list[mid_index]

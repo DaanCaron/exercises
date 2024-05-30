@@ -1,4 +1,3 @@
-# Write your code here
 def contains_duplicates(xs):
     for i in range(len(xs)):
         for j in range(i + 1, len(xs)):

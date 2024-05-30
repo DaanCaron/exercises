@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "00-setting-things-up"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

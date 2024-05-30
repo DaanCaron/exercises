@@ -1,18 +1,15 @@
 class CircularBuffer:
-    def __init__(self, max_length):
-        self.max_length = max_length
-        self.list =[]
-
+    def __init__(self, max_size):
+        self.__max_size = max_size
+        self.__items = []
+    
     def add(self, item):
-        if len(self.list) < self.max_length:
-            self.list.append(item)
-        else:
-            self.list.pop(0)
-            self.list.append(item)
+        self.__items.append(item)
+        if len(self.__items) > self.__max_size:
+            del self.__items[0]
 
     def __getitem__(self, index):
-        return self.list[index]
+        return self.__items[index]
     
     def __len__(self):
-        return len(self.list)
-    
+        return len(self.__items)

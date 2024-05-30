@@ -1,3 +1,2 @@
-# Write your code here
 def middle(ns):
-    return ns[len(ns) //2]
+    return ns[len(ns) // 2]
