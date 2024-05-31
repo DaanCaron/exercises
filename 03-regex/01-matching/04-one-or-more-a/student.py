@@ -1,4 +1,4 @@
 import re
 
-def one_or_more(string):
+def one_or_more_a(string):
     return re.fullmatch('a+', string)

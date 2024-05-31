@@ -1,4 +1,5 @@
+# Write your code here
 import re 
 
-def equals_abs(string):
-    return re.fullmatch('abc', string)
+def equals_abc(string):
+    return  re.fullmatch('abc', string)
