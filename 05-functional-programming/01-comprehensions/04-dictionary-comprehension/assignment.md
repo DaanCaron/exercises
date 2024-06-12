@@ -1,7 +1,7 @@
 # Dictionary Comprehension
 
 One can also rapidly construct dictionaries using _dictionary comprehensions_.
-Say for example we have a list of `Student`s and want to quickly find a `Student` object based on its `id`.
+Say for example we have a list of `Students` and want to quickly find a `Student` object based on its `id`.
 Using a list would require a linear search:
 
 ```python
